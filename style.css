@@ -1,0 +1,280 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+h1 {
+  font-style: italic;
+  color: #eec65f;
+}
+
+.title {
+  font-size: 2em;
+  line-height: 1.5em;
+  text-align: right;
+  color: #eec65f;
+  font-family: "Times new roman";
+  width: 90%;
+  padding-bottom: 2em;
+}
+
+.logo {
+  float: left;
+  line-height: 1.5em;
+  background-color: white;
+}
+
+.bg {
+  background-color: black;
+}
+
+.navbar-nav > li {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h3 {
+  text-align: center;
+  color: #eec65f;
+}
+.change {
+  text-align: center;
+  font-size: 6em;
+  color: #eec65f;
+  font-style: italic;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bgimg {
+  position: relative;
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+.opacity {
+  opacity: 0.5;
+  height: 600px;
+  width: 1500px;
+  padding: 30px;
+}
+.active {
+  background-color: #ffffcc;
+}
+
+#dp {
+  position: relative;
+  float: left;
+  height: 600px;
+  width: 400px;
+  margin: 1em;
+  border: 3px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #eec65f;
+}
+#home-content {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1.5em;
+  margin: 2.5em;
+  line-height: 1.5em;
+  text-align: right;
+  color: #ffffff;
+  font-family: "Times new roman";
+  width: 90%;
+  padding-bottom: 2em;
+}
+
+#hc {
+  text-align: justify;
+  color: white;
+}
+
+
+
+.btn:hover {
+  background-color: #ffffcc;
+}
+
+#btn1 {
+  background-color: #eec65f;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #eec65f;
+  width: 100%;
+  text-align: center;
+  left: 50%;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: 25%;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ffffcc;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+footer {
+  background-color: #eec65f;
+  color: black;
+  padding-bottom: 2em;
+}
+
+#f1 {
+  float: left;
+  padding-left: 50px;
+  text-align: center;
+  width: 33.33%;
+}
+#f2 {
+  float: center;
+  font-size: 1em;
+  width: 33.33%;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 30px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.edr:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.edc {
+  float: left;
+  width: 50%;
+  padding: 30px;
+  color: white;
+  font-size: 1.5em;
+  text-align: justify;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active_slide {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px;
+  }
+}
+
+#more {
+  display: none;
+}
+
+#readBtn {
+  background-color: #eec65f;
+  color: black;
+}
+
